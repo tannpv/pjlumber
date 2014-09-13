@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset>
+
+        <field name="id" type="text" default="0" label="JGLOBAL_FIELD_ID_LABEL"
+                     readonly="true" class="readonly"
+                     description="JGLOBAL_FIELD_ID_DESC" /> 
+                    
+        <field name="ordering" type="text" label="Ordering"
+                            description="Ordering" class="inputbox" size="30"/>
+                            
+        <field name="title" type="Product" 
+              class="inputbox"
+              filter="safehtml"
+              size="1"
+              default="0"
+              extension = "com_inventory"
+              required="true"                 
+              label="COM_INVENTORY_FORM_LBL_INVENTORY_TITLE" description="COM_INVENTORY_FORM_DESC_INVENTORY_TITLE" > 
+            <option value="0">Select Product</option>
+        </field> 
+                 
+       <field name="checked_out" type="hidden" filter="unset" />
+
+        <field name="checked_out_time" type="hidden" filter="unset" />
+        
+        <field name="description" type="editor" buttons="true"
+              class="inputbox"
+              filter="safehtml"
+              required="true" 
+                
+                 label="COM_INVENTORY_FORM_LBL_INVENTORY_DESCRIPTION" description="COM_INVENTORY_FORM_DESC_INVENTORY_DESCRIPTION"  /> 
+
+        <field name="cl" type="text" size="40" class="inputbox"
+              label="COM_INVENTORY_FORM_LBL_INVENTORY_CL" description="COM_INVENTORY_FORM_DESC_INVENTORY_CL" 
+                
+                 required="true" 
+              filter="safehtml" /> 
+
+        <field
+            name="state"
+            type="list"
+            label="JSTATUS"
+            description="JFIELD_PUBLISHED_DESC"
+            class="inputbox"
+            size="1"
+            default="1">
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+        </field> 
+
+        <field name="checked_out" type="hidden" filter="unset" />
+        <field name="checked_out_time" type="hidden" filter="unset" />
+
+    </fieldset>
+
+</form>

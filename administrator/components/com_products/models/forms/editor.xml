@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset>
+
+        <field name="id" type="text" default="0" label="JGLOBAL_FIELD_ID_LABEL"
+                    readonly="true" class="readonly"
+                    description="JGLOBAL_FIELD_ID_DESC" /> 
+
+        <field name="title" type="text" size="40" class="inputbox"
+                 label="COM_PRODUCTS_FORM_LBL_EDITOR_TITLE" description="COM_PRODUCTS_FORM_DESC_EDITOR_TITLE" 
+                
+                 required="true" 
+                filter="safehtml" /> 
+
+        <field name="description" type="editor" buttons="true"
+                class="inputbox"
+                filter="safehtml"
+                 required="true" 
+                
+                 label="COM_PRODUCTS_FORM_LBL_EDITOR_DESCRIPTION" description="COM_PRODUCTS_FORM_DESC_EDITOR_DESCRIPTION"  /> 
+
+        <field name="picture" type="editor" buttons="true"
+                class="inputbox"
+                filter="safehtml"
+                
+                
+                 label="COM_PRODUCTS_FORM_LBL_EDITOR_PICTURE" description="COM_PRODUCTS_FORM_DESC_EDITOR_PICTURE"  /> 
+
+        <field
+                name="state"
+                type="list"
+                label="JSTATUS"
+                description="JFIELD_PUBLISHED_DESC"
+                class="inputbox"
+                size="1"
+                default="1">
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+        </field> 
+        
+        <field name="image_thumb" type="media" directory="phocagallery"
+                hide_none="1" label="COM_BANNERS_FIELD_IMAGE_THUMB_LABEL"
+                size="40"
+                description="COM_BANNERS_FIELD_IMAGE_THUMB_DESC" />
+        <field name="image_full" type="media" directory="phocagallery"
+                hide_none="1" label="COM_BANNERS_FIELD_IMAGE_FULL_LABEL"
+                size="40"
+                description="COM_BANNERS_FIELD_IMAGE_FULL_DESC" />
+
+        <field name="checked_out" type="hidden" filter="unset" />
+        <field name="checked_out_time" type="hidden" filter="unset" />
+
+    </fieldset>
+
+</form>

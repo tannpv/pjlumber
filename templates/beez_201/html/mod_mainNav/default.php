@@ -1,0 +1,1 @@
+<?php defined('_JEXEC') or die('Restricted access'); // no direct access  ?><?php  //  $modules = JModuleHelper::getModules('topmenu');     // echo JModuleHelper::renderModule($modules[0]);    ?>

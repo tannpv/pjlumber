@@ -1,0 +1,36 @@
+*.PJHome{
+	width: 80px;
+}
+.PJHome a{
+	width: 50px;
+}
+*.PJProduct{
+	width: 200px;
+}
+*.PJProduct a{
+	width: 170px;
+}
+*.PJPhoto{
+	width: 150px;
+}
+*.PJPhoto a{
+	width: 120px;
+}
+*.PJInter{
+	width: 190px;
+}
+*.PJInter a{
+	width: 160px;
+}
+*.PJInventory{
+	width: 110px;
+}
+*.PJInventory a{
+	width: 80px;
+}
+*.PJContact{
+	width: 100px;
+}
+*.PJContact a{
+	width: 70px;
+}

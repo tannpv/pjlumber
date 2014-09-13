@@ -1,0 +1,13 @@
+.flexicontact { }
+.fc_form { }
+.fc_table {border:none; padding: 2px; width:100% }
+.fc_table tr {border:none; }
+.fc_table td {border:none; padding: 3px 0 3px 0;}
+.fc_table td.fc_prompt {text-align:right; width:20%; padding-right:10px;}
+.fc_table td.fc_field  {text-align:left; }
+.fc_error {font-size:small; color:red;}
+.fc_table td.fc_images { }
+.fc_table td.fc_button {padding-top:10px; padding-left:20px;}
+
+.fc_inactive {border:2px solid transparent;}
+.fc_active   {border:2px solid red;}

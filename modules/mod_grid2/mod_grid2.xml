@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <!-- Name of the Module -->
+    <name>Demo</name> 
+ 
+    <!-- Name of the Author -->
+    <author>demo</author> 
+ 
+    <!-- Version Date of the Module -->
+    <creationDate>11-11-2010</creationDate> 
+ 
+    <!-- Copyright information -->
+    <copyright>Epiphany.inc</copyright> 
+ 
+    <!-- License Information -->
+    <license>Epiphany</license> 
+ 
+    <!-- Author's email address -->
+    <authorEmail>quang4dev@gmail.com</authorEmail> 
+ 
+    <!-- Author's website -->
+    <authorUrl>epiphanyhosting.com</authorUrl> 
+ 
+    <!-- Module version number -->
+    <version>1.0.0</version> 
+ 
+    <!-- Description of what the module does -->
+    <description>Provides a random listing of registered users</description>
+ 
+    <!-- Listing of all files that should be installed for the module to function -->
+    <files>
+        <!-- The "module" attribute signifies that this is the main controller file -->
+        <filename module="mod_grid2">mod_grid2.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+ 
+    <languages>
+        <!-- Any language files included with the module -->
+        <language tag="en-GB">en-GB.mod_grid2.ini</language>
+    </languages>
+ 
+    <!-- Optional parameters -->
+    <config>
+        <fields name="params">
+            <fieldset name="request" label="Required Settings"
+			addfieldpath="/administrator/components/com_content/models/fields">
+
+                <field name="id" type="modal_article"
+				label="COM_CONTENT_FIELD_SELECT_ARTICLE_LABEL"
+				required="true"
+				description="Select the desired article from the list."
+                              
+			/>
+            </fieldset>
+            
+        </fields>
+    </config>
+
+</install>

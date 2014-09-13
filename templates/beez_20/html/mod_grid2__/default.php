@@ -1,0 +1,1 @@
+<?php defined('_JEXEC') or die('Restricted access');//var_dump($items); // no direct access  $app = JFactory::getApplication();$templateDir = JURI::base() . 'templates/' . $app->getTemplate();?> 

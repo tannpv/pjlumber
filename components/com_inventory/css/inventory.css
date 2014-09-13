@@ -1,0 +1,65 @@
+tr, td{
+	border: 0px none;
+}
+.main{
+	width: 180px;
+}
+.desc_title{
+	width: 75%;
+	float: left;
+	padding-left: 5%;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+.cl_title{
+	width: 20%;
+	float: left;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+.content{
+}
+.desc_content{
+	width: 75%;
+	float: left;
+	padding-left: 5%;
+	padding-bottom: 2px;
+}
+.cl_content{
+	width: 20%;
+	float: left;
+	padding-bottom: 2px;
+}
+.table_1 {
+	display: block;
+	float: left;
+	border: thin solid;  
+	font-size: 11px;
+	border-top: double; 
+}
+
+.seperate{
+	width: 5px;
+	border: thin solid;
+	border-top: none;
+	border-bottom: none;
+}
+.title {
+	border-bottom: 4px double;
+	min-height: 35px;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	font-size: small;
+	font-weight: bold;
+}
+
+.inventory{
+		display: block;
+		float: left;
+		margin: auto;
+		width: 100%;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		padding: 0;
+}

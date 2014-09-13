@@ -1,0 +1,1 @@
+<?php defined('_JEXEC') or die('Restricted access'); // no direct access ?>    <?php foreach ($items as $item) { ?>    <div class="clearfix">        <h1 class="pageTitle"><?php echo $item->title ?></h1>    </div>    <div class="grid2">        <?php echo $item->introtext ?>    </div>    <?php } ?>

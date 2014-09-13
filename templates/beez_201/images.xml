@@ -1,0 +1,5 @@
+<diaporama ordre="sequential" fadeTime="10" diapoInterval="4"
+echelle="false" fontSize="10" >
+<image url="http://pjlumber.vn/templates/beez_20/images/slides/001.jpg"/>
+<image url="http://pjlumber.vn/templates/beez_20/images/slides/003.jpg"/>
+</diaporama>

@@ -1,0 +1,1 @@
+<?php defined('_JEXEC') or die('Restricted access'); // no direct access  ?><div class="clearfix">    <h1 class="pageTitle">Welcome</h1></div>
