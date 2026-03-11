@@ -10,10 +10,10 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = 'pjlumber.com';
-	public $user = 'pj_admin';
-	public $password = 'pj_epiphany';
-	public $db = 'pj_lumber';
+	public $host = 'localhost';
+	public $user = 'unbscsg4g4jzr';
+	public $password = 'PjP@ssword1';
+	public $db = 'dbp7ynumkmjsoa';
 	public $dbprefix = 'pj_';
 	public $live_site = '';
 	public $secret = 'T7u0GfzvaCUwfigy';
@@ -49,8 +49,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/var/www/vhosts/pjlumber.com/subdomains/dev/httpdocs/logs';
-	public $tmp_path = '/var/www/vhosts/pjlumber.com/subdomains/dev/httpdocs/tmp';
+	public $log_path = '/home/customer/www/pjlumber.com/public_html/logs';
+	public $tmp_path = '/home/customer/www/pjlumber.com/public_html/tmp';
 	public $lifetime = '15000';
 	public $session_handler = 'database';
 	public $MetaRights = '';
