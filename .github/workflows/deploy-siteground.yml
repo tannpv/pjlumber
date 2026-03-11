@@ -1,0 +1,24 @@
+name: Deploy to SiteGround
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy via rsync
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avz --delete --exclude='.git/' --exclude='.github/' --exclude='.claude/' --exclude='CLAUDE.md' --exclude='.gitignore' --exclude='db-bk.sql'
+          path: ./
+          remote_path: /home/customer/www/pjlumber.com/public_html/
+          remote_host: gtxm1049.siteground.biz
+          remote_port: 18765
+          remote_user: u3015-guqtiwx545uh
+          remote_key: ${{ secrets.SITEGROUND_SSH_KEY }}
